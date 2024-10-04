@@ -1,0 +1,553 @@
+@media screen and (max-width:1025px) {
+    #navbar-div{
+        padding: 12px 0px 0px 30px;
+        margin-left: 13%;
+    }
+    #navbar-div a{
+        font-size: 20px;
+        padding: 25px;
+    }
+    .home img{
+        margin: 13% 0 0 55%;
+    }
+    .home-text{
+        padding-top: 13%;
+    }
+    .contents{
+        margin-left: 2px;
+    }
+    .skills-front{
+        width: 40%;
+        margin-left: 70px;
+    }
+    .skills-others{
+        width: 40%;
+    }
+    .skills-front-details div{
+        margin-left: 43px;
+    }
+    .skills-others-details div{
+        margin-left: 43px;
+    }
+    .project-content1{
+        display: flex;
+        flex-direction: column;
+        padding-left: 15%;
+    }
+    .project-img1{
+        margin-left: 20%;
+        margin-bottom: 3%;
+        width: 350px;
+    }
+    .project-content2{
+        display: flex;
+        flex-direction: column;
+        padding-left: 15%;
+    }
+    .project-img2{
+        margin-left: 20%;
+        margin-bottom: 3%;
+        width: 350px;
+    }
+}
+@media screen and (max-width:769px) {
+    #navbar-div{
+        padding: 20px 0px 0px 30px;
+        margin-left: 3%;
+    }
+    #navbar-div a{
+        font-size: 19px;
+        padding: 18px;
+    }
+    .home img{
+        height: 75%;
+        width: 40%;
+        margin: 16% 0% 0% 52%;
+    }
+    .home-text{
+        padding-top: 17%;
+    }
+    .contents{
+        margin-left: 2px;
+    }
+    .home-text h1{
+        font-size: 3rem;
+    }
+    .home-text h2{
+        font-size: 2rem;
+    }
+    .home-text p{
+        font-size: 19px;
+    }
+    .btn-home{
+        width: 23%;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .about-head{
+        margin:20% 0% 0% 83%;
+    }
+    .project-img1{
+        margin-left: 13%;
+    }
+    .project-img2{
+        margin-left: 13%;
+    }
+    .project-descrip1 p{
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    .project-descrip2 p{
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    .skills-sample{
+        margin-left: 2px;
+        flex-direction: column;    
+    }
+    .skills-front{
+        width: 50%;
+        margin-left: 190px;
+    }
+    .skills-others{
+        width: 50%;
+        margin-left: 190px;
+    }
+    .skills-front-details div{
+        margin-left: 33px;
+    }
+    .skills-others-details div{
+        margin-left: 33px;
+    }
+}
+@media screen and (max-width:426px){
+    .header{
+        width: 100%;
+    }
+    .header-logo{
+        height: 70px;
+    }
+    .header-logo img{
+        position: absolute;
+        z-index: -1;
+        height: 68px;
+        width: 80px;
+        margin-top: 0;
+    }
+    .header-logo p{
+        padding: 15px 0px 0px 60px;
+    }
+    #navbar-div{
+        padding: 0%;
+        margin: 0%;
+        display: none;
+    }
+    #navbar-div a{
+        display: block;
+    }
+    #menu-icon{
+        display: block;
+        margin: 25px 0 0 89%;
+    }
+    .navbar-div2{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: #0f0e0e;
+        text-align: left;
+        line-height: 0.1;
+        transition: all .45s ease;
+    }
+    .home img{
+        height: 58%;
+        width: 58%;
+        margin: 23% 0% 0% 42%;
+    }
+    .home-text{
+        padding-top: 20%;
+        padding-left: 3%;
+    }
+    .home-text h1{
+        font-size: 2rem;
+    }
+    .home-text h2{
+        font-size: 25px;
+    }
+    .home-text p{
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .btn-home{
+        width: 33%;
+        height: 40px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .about-head{
+        margin:28% 0% 0% 80%;
+    }
+    .about-head h1{
+        font-size: 55px;
+    }
+    .about-head span{
+        font-size: 55px;
+    }
+    .about-text{
+        margin-top: 8%;
+        margin-left: 3%;
+        width: 75%;
+    }
+    .about-text h1{
+        font-size: 25px;
+    }
+    .about-text h3{
+        line-height: 1.8;
+        font-size: 30px;
+    }
+    .about-text p{
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .container1{
+        margin-left: 3%;
+        width: 75%;
+    }
+    .main-division .head{
+        margin: 0%;
+    }
+    .head h1{
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    .head p{
+        font-size: 20px;
+        padding-right: 10px;
+    }
+    .head h2{
+        font-size: 18px;
+    }
+    .contents{
+        flex-direction: column;
+    }
+    .sub-division2{
+        margin-left: 20%;
+    }
+    .skills h1{
+        font-size: 55px;
+    }
+    .skills p{
+        font-size: 16px;
+    }
+    .skills-sample{
+       margin: 0%;
+    }
+    .skills-front{
+        width: 85%;
+        margin-left: 35px;
+    }
+    .skills-front-details div{
+        width: 138px;
+        margin-left: 26px;
+        margin-top: 25px;
+    }
+    .skills-others{
+        width: 85%;
+        margin-left: 35px;
+    }
+    .skills-others-details div{
+        width: 138px;
+        margin-left: 26px;
+        margin-top: 25px;
+    }
+    .projects h1{
+        font-size: 55px;
+    }
+    .projects p{
+        font-size: 16px;
+        line-height: 1.5;
+        padding-top: 15px;
+    }
+    .project-img1{
+        margin-left: 1%;
+        width: 300px;
+        height: 200px;
+    }
+    .project-img1 img{
+        height: 200px;
+        width: 300px;
+    }
+    .project-descrip1{
+        padding-right: 30px;
+        padding-left: 0%;
+        padding-right: 50px;
+    }
+    .project-descrip1 h5{
+        font-size: 25px;
+        text-align: center;
+        padding: 0%;
+    }
+    .project-img2{
+        margin-left: 1%;
+        width: 300px;
+        height: 200px;
+    }
+    .project-img2 img{
+        height: 200px;
+        width: 300px;
+    }
+    .project-descrip2 h5{
+        font-size: 25px;
+        text-align: center;
+    }
+    .project-descrip2{
+        padding-right: 50px;
+        padding-left: 0%;
+    }
+    .content h2{
+        font-size: 55px;
+    }
+    .content p{
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 2% 20px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactform{
+        width: 80%;
+    }
+    .gototop{
+        height: 40px;
+        width: 40px;
+        margin-left: 87%;
+        font-size: 30px;
+    }
+    .end .last-text{
+        margin: 15px 35px;
+    }
+}
+@media screen and (min-width:393px){
+    .skills-front-details div{
+        margin-left: 17px;
+    }   
+    .skills-others-details div{
+        margin-left: 17px;
+    }
+    .container .contactinfo{
+        margin-right: 30px;
+    }
+    .end .last-text{
+        font-size: 15px;
+        margin: 15px 7%;
+    }
+    .project-img1{
+        margin-left: 14px;
+        width: 250px;
+        height: 150px;
+    }
+    .project-img1 img{
+        height: 150px;
+        width: 250px;
+    }
+    .project-descrip1{
+        padding: 0%;
+        padding-right: 20px;
+    }
+    .project-descrip1 h5{
+        text-align: left;
+        padding-left: 4%;
+        font-size: 18px;
+    }
+    .project-img2{
+        margin-left: 14px;
+        width: 250px;
+        height: 150px;
+    }
+    .project-img2 img{
+        height: 150px;
+        width: 250px;
+    }
+    .project-descrip2{
+        padding: 0%;
+        padding-right: 30px;
+    }
+    .project-descrip2 h5{
+        text-align: left;
+        padding-left: 4%;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:376px){
+    .sub-division2{
+        margin-left: 13%;
+    }
+    .projects h1{
+        font-size: 50px;
+    }
+    .projects p{
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 15px 20px;
+    }
+    .project-content1{
+        padding: 0%;
+    }
+    .project-img1{
+        margin-left: 65px;
+        width: 250px;
+        height: 150px;
+    }
+    .project-img1 img{
+        height: 150px;
+        width: 250px;
+    }
+    .project-descrip1{
+        padding: 0% 28px;
+    }
+    .project-content2{
+        padding: 0%;
+    }
+    .project-img2{
+        margin-left: 65px;
+        width: 250px;
+        height: 150px;
+    }
+    .project-img2 img{
+        height: 150px;
+        width: 250px;
+    }
+    .project-descrip2{
+        padding: 0% 28px;
+    }
+    .contactform{
+        width: 85%;
+    }
+    .end .last-text{
+        font-size: 13px;
+        margin: 15px 35px;
+    }
+    .skills-front{
+        margin-left: 30px;
+    }
+    .skills-others{
+        margin-left: 30px;
+    }
+    .skills-front-details div{
+        margin-left: 90px;
+    }
+    .skills-others-details div{
+        margin-left: 90px;
+    }
+    .home-text h2{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:321px){
+    .sub-division2{
+        margin-left: 4%;
+    }
+    .home-text{
+        padding-top: 30%;
+        padding-left: 7%;
+    }
+    .home img{
+        margin: 30% 0% 0% 44%;
+        height: 45%;
+        width: 55%;
+    }
+    .home-text h2 span{
+        top: 38%;
+        left: 7%;
+    }
+    @keyframes typing{
+        0%{
+            width: 0;
+        }
+        50%{
+            width: 39%;
+        }
+    }
+    .home-text p{
+        padding-top: 40px;
+        line-height: 1.3;
+    }
+    .btn-home{
+        width: 45%;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .skills h1{
+        font-size: 50px;
+    }
+    .skills p{
+        line-height: 1.4;
+        padding-top: 20px;
+    }
+    .skills-front h1{
+        font-size: 40px;
+    }
+    .skills-others h1{
+        font-size: 40px;
+    }
+    .skills-front-details div{
+        margin-left: 65px;
+    }
+    .skills-others-details div{
+        margin-left: 65px;
+    }
+    .projects h1{
+        font-size: 50px;
+    }
+    .projects p{
+        line-height: 1.4;
+        padding-top: 20px;
+    }
+    .project-img1{
+        margin: 37px;
+        width: 250px;
+        height: 150px;
+    }
+    .project-img2 img{
+        height: 150px;
+        width: 250px;
+    }
+    .project-img2{
+        margin: 37px;
+        width: 250px;
+        height: 150px;
+    }
+    .project-img2 img{
+        height: 150px;
+        width: 250px;
+    }
+    .content h2{
+        font-size: 40px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .container .contactinfo{
+        margin-right: 30px;
+    }
+    .skills-front{
+        margin-left: 25px;
+    }
+    .skills-others{
+        margin-left: 25px;
+    }
+    .gototop{
+        height: 40px;
+        width: 40px;
+        margin-left: 85%;
+        font-size: 30px;
+    }
+    .end .last-text{
+        font-size: 12px;
+        margin: 15px 8%;
+    }
+}
