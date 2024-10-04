@@ -30,24 +30,19 @@
         margin-left: 43px;
     }
     .project-content1{
-        display: flex;
         flex-direction: column;
-        padding-left: 15%;
+        align-items: center;
     }
-    .project-img1{
-        margin-left: 20%;
-        margin-bottom: 3%;
-        width: 350px;
+    .project-descrip1{
+        text-align: center;
     }
     .project-content2{
-        display: flex;
         flex-direction: column;
-        padding-left: 15%;
+        align-items: center;
     }
-    .project-img2{
-        margin-left: 20%;
-        margin-bottom: 3%;
-        width: 350px;
+    .project-descrip2{
+        text-align: center;
+        margin-bottom: 50px;
     }
 }
 @media screen and (max-width:769px) {
@@ -87,19 +82,20 @@
     .about-head{
         margin:20% 0% 0% 83%;
     }
-    .project-img1{
-        margin-left: 13%;
+    .project-content1{
+        flex-direction: column;
+        align-items: center;
     }
-    .project-img2{
-        margin-left: 13%;
+    .project-descrip1{
+        text-align: center;
     }
-    .project-descrip1 p{
-        line-height: 1.5;
-        font-size: 18px;
+    .project-content2{
+        flex-direction: column;
+        align-items: center;
     }
-    .project-descrip2 p{
-        line-height: 1.5;
-        font-size: 18px;
+    .project-descrip2{
+        text-align: center;
+        margin-bottom: 50px;
     }
     .skills-sample{
         margin-left: 2px;
@@ -174,6 +170,9 @@
         font-size: 2rem;
     }
     .home-text h2{
+        font-size: 25px;
+    }
+    .home-text h2 span{
         font-size: 25px;
     }
     .home-text p{
@@ -270,41 +269,20 @@
         line-height: 1.5;
         padding-top: 15px;
     }
-    .project-img1{
-        margin-left: 1%;
-        width: 300px;
-        height: 200px;
-    }
-    .project-img1 img{
-        height: 200px;
-        width: 300px;
+    .project-content1{
+        flex-direction: column;
+        align-items: center;
     }
     .project-descrip1{
-        padding-right: 30px;
-        padding-left: 0%;
-        padding-right: 50px;
-    }
-    .project-descrip1 h5{
-        font-size: 25px;
         text-align: center;
-        padding: 0%;
     }
-    .project-img2{
-        margin-left: 1%;
-        width: 300px;
-        height: 200px;
-    }
-    .project-img2 img{
-        height: 200px;
-        width: 300px;
-    }
-    .project-descrip2 h5{
-        font-size: 25px;
-        text-align: center;
+    .project-content2{
+        flex-direction: column;
+        align-items: center;
     }
     .project-descrip2{
-        padding-right: 50px;
-        padding-left: 0%;
+        text-align: center;
+        margin-bottom: 50px;
     }
     .content h2{
         font-size: 55px;
@@ -331,57 +309,6 @@
         margin: 15px 35px;
     }
 }
-@media screen and (min-width:393px){
-    .skills-front-details div{
-        margin-left: 17px;
-    }   
-    .skills-others-details div{
-        margin-left: 17px;
-    }
-    .container .contactinfo{
-        margin-right: 30px;
-    }
-    .end .last-text{
-        font-size: 15px;
-        margin: 15px 7%;
-    }
-    .project-img1{
-        margin-left: 14px;
-        width: 250px;
-        height: 150px;
-    }
-    .project-img1 img{
-        height: 150px;
-        width: 250px;
-    }
-    .project-descrip1{
-        padding: 0%;
-        padding-right: 20px;
-    }
-    .project-descrip1 h5{
-        text-align: left;
-        padding-left: 4%;
-        font-size: 18px;
-    }
-    .project-img2{
-        margin-left: 14px;
-        width: 250px;
-        height: 150px;
-    }
-    .project-img2 img{
-        height: 150px;
-        width: 250px;
-    }
-    .project-descrip2{
-        padding: 0%;
-        padding-right: 30px;
-    }
-    .project-descrip2 h5{
-        text-align: left;
-        padding-left: 4%;
-        font-size: 18px;
-    }
-}
 @media screen and (max-width:376px){
     .sub-division2{
         margin-left: 13%;
@@ -395,34 +322,19 @@
         padding: 15px 20px;
     }
     .project-content1{
-        padding: 0%;
-    }
-    .project-img1{
-        margin-left: 65px;
-        width: 250px;
-        height: 150px;
-    }
-    .project-img1 img{
-        height: 150px;
-        width: 250px;
+        flex-direction: column;
+        align-items: center;
     }
     .project-descrip1{
-        padding: 0% 28px;
+        text-align: center;
     }
     .project-content2{
-        padding: 0%;
-    }
-    .project-img2{
-        margin-left: 65px;
-        width: 250px;
-        height: 150px;
-    }
-    .project-img2 img{
-        height: 150px;
-        width: 250px;
+        flex-direction: column;
+        align-items: center;
     }
     .project-descrip2{
-        padding: 0% 28px;
+        text-align: center;
+        margin-bottom: 50px;
     }
     .contactform{
         width: 85%;
@@ -446,6 +358,9 @@
     .home-text h2{
         font-size: 22px;
     }
+    .home-text h2 span{
+    font-size: 22px;
+    }
 }
 @media screen and (max-width:321px){
     .sub-division2{
@@ -459,18 +374,6 @@
         margin: 30% 0% 0% 44%;
         height: 45%;
         width: 55%;
-    }
-    .home-text h2 span{
-        top: 38%;
-        left: 7%;
-    }
-    @keyframes typing{
-        0%{
-            width: 0;
-        }
-        50%{
-            width: 39%;
-        }
     }
     .home-text p{
         padding-top: 40px;
@@ -507,23 +410,36 @@
         line-height: 1.4;
         padding-top: 20px;
     }
-    .project-img1{
-        margin: 37px;
-        width: 250px;
-        height: 150px;
+    .project-content1{
+        flex-direction: column;
+        align-items: center;
     }
-    .project-img2 img{
-        height: 150px;
-        width: 250px;
+    .project-descrip1{
+        text-align: center;
+    }
+    .project-content2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-descrip2{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .project-img1{
+        height: 200px;
+        width: 300px;
+    }
+    .project-img1 img{
+        height: 200px;
+        width: 300px;
     }
     .project-img2{
-        margin: 37px;
-        width: 250px;
-        height: 150px;
+        height: 200px;
+        width: 300px;
     }
     .project-img2 img{
-        height: 150px;
-        width: 250px;
+        height: 200px;
+        width: 300px;
     }
     .content h2{
         font-size: 40px;

@@ -20,7 +20,6 @@
 body{
     background: var(--bg-color);
     color: var(--text-color);
-    max-width: 1440px;
 }
 span{
     color: var(--main-color);
@@ -154,26 +153,7 @@ animation: sliderReveal 3s ease forwards;
     font-size: 3rem;
 }
 .home-text h2 span{
-    font-size: 60px;
-    position: absolute;
-    top: 49%;
-    left: 27%;
-    color: #ff4d05;
-    font-weight: 700;
-    border-right: 0.1rem solid #ff4d05;
-    width: 0 ;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing steps(9,end) forwards infinite 7s;
-}
-
-@keyframes typing{
-    0%{
-        width: 0;
-    }
-    50%{
-        width: 26%;
-    }
+    font-size: 3rem;
 }
 .home-text p{
     padding-top: 20px;
@@ -374,7 +354,7 @@ animation: sliderReveal 3s ease forwards;
     border-radius: 9px;
     height: 45px;
     width: 138px;
-    margin-left: 38px;
+    margin-left: 40px;
     margin-top: 25px;
     padding-top: 5px;
     transition: all .2s ease;
@@ -444,9 +424,9 @@ animation: sliderReveal 3s ease forwards;
     display: flex;
     width: 100%;
     margin-top: 20px;
+    padding: 0% 10%;
 }
 .project-img1{
-    margin-left: 15%;
     box-shadow: -10px -10px 10px rgba(255,255,255, 0.2),
     8px  8px 8px rgba(255, 211, 211, 0.1);
     transform: scale(0.9);
@@ -455,13 +435,12 @@ animation: sliderReveal 3s ease forwards;
     transform: scale(1);
     cursor: pointer;
 }
+.project-img1{
+    height: 250px;
+}
 .project-img1 img{
     height: 250px;
     width: 350px;
-}
-.project-descrip1{
-    padding-left: 20px;
-    padding-right: 100px;
 }
 .project-descrip1 h5{
     font-size: 35px;
@@ -476,26 +455,25 @@ animation: sliderReveal 3s ease forwards;
     display: flex;
     width: 100%;
     margin-top: 30px;
-    padding-bottom: 80px;
+    padding: 0% 10%;
 }
 .project-img2{
-    margin-left: 15%;
     box-shadow: -10px -10px 10px rgba(255,255,255, 0.2),
     8px  8px 8px rgba(255, 211, 211, 0.1);
     transition: all .2s ease;
     transform: scale(0.9);
+    margin-bottom: 5%;
 }
 .project-img2:hover{
     transform: scale(1);
     cursor: pointer;
 }
+.project-img2{
+    height: 235px;
+}
 .project-img2 img{
     height: 235px;
     width: 350px;
-}
-.project-descrip2{
-    padding-left: 20px;
-    padding-right: 100px;
 }
 .project-descrip2 h5{
     font-size: 35px;
